@@ -39,8 +39,7 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
-})(jQuery); // End of use strict
-var oilCanvas = document.getElementById("oilChart");
+    var oilCanvas = document.getElementById("oilChart");
 
 Chart.defaults.global.defaultFontFamily = "Lato";
 Chart.defaults.global.defaultFontSize = 18;
@@ -70,3 +69,4 @@ var pieChart = new Chart(oilCanvas, {
   type: 'pie',
   data: oilData
 });
+})(jQuery); // End of use strict
